@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(234, 241, 238);
+  padding: 15px;
+}
+
+header a {
+  background-color: rgb(29, 224, 159);
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+h1 {
+  color: rgb(16, 116, 82);
+}
+
+h2 {
+  color: rgb(21, 150, 107);
+}
+
+#titulo-comentarios, #titulo-pqr {
+  display: inline-block;
+  padding: 3px;
+  color: rgb(21, 150, 107);
+  border-bottom: 2px solid rgb(21, 150, 107);
+}
+
+#formulario-pqr {
+  width: fit-content;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(29, 224, 159);
+}
+
+button {
+  background-color: rgb(29, 224, 159);
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+#formulario-pqr form div label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+#formulario-pqr form div select {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+#formulario-pqr form div textarea {
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+footer {
+  background-color: rgb(221, 228, 225);
+  text-align: center;
+  padding: 10px 5px;
+  margin-top: 30px;
+}

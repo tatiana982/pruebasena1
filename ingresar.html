@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingresar | Andres Remodelaciones</title>
+  <link rel="stylesheet" href="ingresar.css">
+</head>
+<body>
+  <h1>Ingresa para realizar cotizaciones</h1>
+
+  <form method="post" action="/ingresar">
+    <div>
+      <label for="correo">Correo o usuario</label>
+      <input type="text" id="correo" placeholder="Correo o usuario" />
+    </div>
+    <div>
+      <label for="clave">Contraseña</label>
+      <input type="password" id="clave" placeholder="************" />
+    </div>
+    <a href="/recuperar">Recordar contraseña</a>
+    <div>
+      <button type="submit">Ingresar</button>
+    </div>
+  </form>
+</body>
+</html>
